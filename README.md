@@ -1,6 +1,33 @@
 # Git Lab 1
 
-This lab demonstrates working with commits, reset, amend, and revert in Git.
+
+```markdown
+# Git & SSH 
+
+### 1. Generate a new SSH key (PowerShell)
+```powershell
+ssh-keygen -t ed25519 -C "aesha.abdelwahid@gmail.com"
+```
+
+### 2. Start the SSH agent
+```powershell
+Start-Service ssh-agent
+```
+
+### 3. Copy the public key
+```powershell
+cat \.ssh\id_ed25519.pub
+```
+Add it to **GitHub**
+
+### 4. Test the connection
+```powershell
+ssh -T git@github.com
+```
+
+---
+
+This part of lab demonstrates working with commits, reset, amend, and revert in Git.
 
 ---
 
@@ -63,3 +90,28 @@ This creates a new commit that reverses the last commit.
 
 ---
 
+### 7. Push to GitHub
+```bash
+git push -u origin main
+```
+
+---
+
+## Add and Push README.md
+
+### 1. Create README.md
+```bash
+echo "Task 1" > README.md
+```
+
+### 2. Add and commit README.md
+```bash
+git add README.md
+git commit -m "README.md"
+```
+
+### 3. Push to GitHub
+```bash
+git push origin main
+```
+### 4. Editing content then push again 
