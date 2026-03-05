@@ -1,6 +1,6 @@
 # Git Lab 1
 
-# Git & SSH 
+## Git & SSH 
 
 ### 1. Generate a new SSH key (PowerShell)
 ```powershell
@@ -25,7 +25,7 @@ ssh -T git@github.com
 
 ---
 
-This part of lab demonstrates working with commits, reset, amend, and revert in Git.
+## This part of lab demonstrates working with commits, reset, amend, and revert in Git.
 
 ---
 
