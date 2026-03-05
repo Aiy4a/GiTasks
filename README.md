@@ -1,7 +1,5 @@
 # Git Lab 1
 
-
-```markdown
 # Git & SSH 
 
 ### 1. Generate a new SSH key (PowerShell)
